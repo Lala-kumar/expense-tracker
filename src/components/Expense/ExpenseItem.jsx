@@ -17,7 +17,7 @@ function ExpenseItem(props) {
           <h2>{props.title}</h2>
         </div>
 
-        <div className="expense-item__price"> ${props.amount} </div>
+        <div className="expense-item__price"> ₹{props.amount} </div>
 
         <button onClick={clickHandler} className="delete-button">
           <svg className="delete-svgIcon" viewBox="0 0 448 512">
